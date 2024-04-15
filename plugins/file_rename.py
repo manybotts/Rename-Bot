@@ -101,7 +101,7 @@ async def doc(bot, update):
 
     ms = await update.message.edit("𝕚𝔹𝕆𝕏 𝕋𝕍 𝗥𝗲𝗻𝗮𝗺𝗲𝗿 𝗕𝗼𝘁 𝙞𝙨 𝙪𝙣𝙙𝙧𝙚𝙨𝙨𝙞𝙣𝙜 𝙮𝙤𝙪𝙧 𝙜𝙖𝙡🫦🙈👙•••")    
     try:
-     	path = await bot.download_media(message=file, file_name=file_path, progress=progress_for_pyrogram,progress_args=("𝗣𝗮𝗻𝗱𝗮𝗪𝗲𝗽 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗦𝘁𝗮𝗿𝘁𝗲𝗱｡｡｡｡", ms, time.time()))                    
+     	path = await bot.download_media(message=file, file_name=file_path, progress=progress_for_pyrogram,progress_args=("𝙎𝙝𝙚 𝙞𝙨 𝙖𝙡𝙡 𝙬𝙚𝙩 𝙖𝙣𝙙 𝙧𝙚𝙖𝙙𝙮 😋🍆💦｡｡｡｡", ms, time.time()))                    
     except Exception as e:
      	return await ms.edit(e)
      	     
